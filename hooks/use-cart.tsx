@@ -1,9 +1,8 @@
-import { create } from "zustand";
 import { toast } from "react-hot-toast";
-import { persist, createJSONStorage } from "zustand/middleware";
+import { create } from "zustand";
+import { createJSONStorage, persist } from "zustand/middleware";
 
 import { Product } from "@/types";
-import { AlertTriangle } from "lucide-react";
 
 interface CartStore {
   items: Product[];
