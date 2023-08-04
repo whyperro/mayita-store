@@ -10,6 +10,7 @@ export interface Billboard {
 export interface Category {
   id: string, 
   name: string, 
+  active: string,
   billboard: Billboard;
 }
 
